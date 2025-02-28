@@ -1,0 +1,140 @@
+# AIBA - Linguagem de Programação para Inteligência Artificial
+
+## 📖 Introdução
+A **AIBA** é uma linguagem de programação interpretada, inspirada na sintaxe do Python e otimizada para Inteligência Artificial. Criada para facilitar o desenvolvimento de aplicações de **IA, NLP e Visão Computacional**, a AIBA fornece suporte nativo a modelos de aprendizado profundo e execução distribuída.
+
+## 🚀 Recursos Principais
+✅ **Sintaxe simples e expressiva** (semelhante ao Python)
+✅ **Execução distribuída e suporte total a GPU**
+✅ **Módulos embutidos para IA, incluindo NLP e visão computacional**
+✅ **Gerenciador de pacotes (`aiba-pkg`)**
+✅ **Sistema de módulos personalizados (`import meu_modulo.aiba`)**
+✅ **Orientação a Objetos (OOP)**
+✅ **IDE gráfica com depuração e execução assíncrona**
+
+---
+## 📥 Instalação
+
+### 🔹 Instalando a AIBA
+Para instalar a AIBA no seu sistema:
+```bash
+pip install aiba
+```
+
+### 🔹 Executando a AIBA
+Para rodar um arquivo `.aiba`:
+```bash
+aiba meu_programa.aiba
+```
+Ou abra a **IDE da AIBA**:
+```bash
+aiba-ide
+```
+
+---
+## 🎯 Sintaxe da AIBA
+
+### 🔹 Variáveis e Tipos de Dados
+```plaintext
+x = 10
+texto = "Olá, AIBA!"
+lista = [1, 2, 3, 4]
+dicionario = {"nome": "AIBA", "tipo": "IA"}
+```
+
+### 🔹 Estruturas de Controle
+```plaintext
+if x > 5 {
+    print "Maior que 5"
+} else {
+    print "Menor ou igual a 5"
+}
+
+for i in range(5) {
+    print i
+}
+```
+
+### 🔹 Funções
+```plaintext
+def soma a b {
+    return a + b
+}
+
+print soma 10 5
+```
+
+### 🔹 Classes e Objetos (OOP)
+```plaintext
+class Pessoa {
+    def __init__ nome idade {
+        self.nome = nome
+        self.idade = idade
+    }
+    def saudacao {
+        return "Olá, eu sou " + self.nome
+    }
+}
+
+pessoa1 = Pessoa "AIBA" 1
+print pessoa1.saudacao
+```
+
+### 🔹 Módulos e Importações
+```plaintext
+import math
+import meu_modulo.aiba
+```
+
+---
+## 📦 Gerenciador de Pacotes (`aiba-pkg`)
+
+### 🔹 Instalando pacotes
+```bash
+aiba-pkg install pacote-ia
+```
+
+### 🔹 Atualizando pacotes
+```bash
+aiba-pkg update
+```
+
+### 🔹 Criando e publicando pacotes
+```bash
+aiba-pkg publish meu_pacote
+```
+
+---
+## 🖥️ IDE da AIBA
+A **IDE da AIBA** permite:
+- **Realce de sintaxe**
+- **Execução assíncrona** (não trava a interface)
+- **Depuração passo a passo**
+- **Abrir, salvar e exportar arquivos `.aiba`**
+
+Para abrir a IDE:
+```bash
+aiba-ide
+```
+
+---
+## ❓ FAQ & Solução de Problemas
+
+### 🔹 Erro de Sintaxe
+Verifique se os blocos `{}` estão corretos e se os comandos seguem a sintaxe da AIBA.
+
+### 🔹 Importação de Módulos Falhou
+Verifique se o arquivo `.aiba` do módulo está no mesmo diretório do seu código.
+
+### 🔹 Como posso contribuir?
+Você pode contribuir via GitHub enviando **issues e pull requests**.
+
+---
+## 🌎 Links e Contato
+🔹 **Repositório GitHub**: [github.com/aiba-lang](https://github.com/aiba-lang)
+🔹 **Site Oficial**: [aiba-lang.org](https://aiba-lang.org)
+🔹 **Comunidade Discord**: [discord.gg/aiba-lang](https://discord.gg/aiba-lang)
+
+---
+🔥 **AIBA - A Linguagem do Futuro da Inteligência Artificial!** 🚀
+
